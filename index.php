@@ -31,20 +31,20 @@
             body {overflow: hidden;}
             
             .margin {
-                margin-top: 200px
+                margin-top: 100px
             }
         </style>
     </head>
     <body>
-       
-        <div class="conatiner" >
-            <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="container">
+        <h2 class="text-center mt-7">LIST of URLS</h2>
+            <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <form class="card p-2 margin" method="POST" action="index.php">
                         <div class="input-group">
                         <input type="text" name="url" class="form-control" placeholder="your url">
                         <div class="input-group-append">
-                            <button type="submit" name="submit" class="btn btn-success">Shorten</button>
+                            <button type="submit" name="submit" class="btn btn-dark">Shorten</button>
                         </div>
                         </div>
                     </form>
@@ -52,8 +52,8 @@
            </div>
         </div>
 
-        <div class="conatiner" id="refresh">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="container" id="refresh">
+            <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <table class="table mt-4">
                         <thead>
