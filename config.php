@@ -4,11 +4,11 @@
 
     $host="localhost";
     $dbname="shorturl";
-    $user="root";
-    $pass="";
+    $user="postgres";
+    $pass="1234";
 
-    $conn = new PDO ("mysql:host=$host;dbname=$dbname",$user,$pass);
-    $conn->setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
+    $conn = new PDO("pgsql:host=$host;port=5432;dbname=$dbname;",$user,$pass);
+    //echo "Connected to PGsql";
  }
  catch(PDOException $e){
     echo "Error is ".$e->getMessage();

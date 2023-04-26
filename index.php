@@ -54,7 +54,7 @@
 
         <div class="container" id="refresh">
             <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="col-md-10">
                     <table class="table mt-4">
                         <thead>
                             <tr>
